@@ -84,15 +84,12 @@ export default class Presentation extends React.Component {
         <Deck transition={["slide"]} transitionDuration={200}>
 
           <Slide bgColor="white">
-            <Image src={images.traefik.replace("/", "")} margin="0px auto 20px" fit height="200" />
-            <Heading size={1}  textColor="primary">
-              Make
+            <Image src={images.traefik.replace("/", "")} margin="0px auto 20px" fit height="300" />
+            <Heading size={3}  textColor="primary" >
+              A Modern
             </Heading>
-            <Heading size={3} textColor="primary" >
-              Load-balancing
-            </Heading>
-            <Heading size={1} textColor="primary">
-              great again !
+            <Heading size={3}  textColor="primary">
+              Reverse Proxy
             </Heading>
             <Text margin="40" >Emile Vauge — Nitro 2017</Text>
           </Slide>
